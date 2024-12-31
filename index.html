@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Heraldo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>El Heraldo</h1>
+        <nav>
+            <ul>
+                <li><a href="/" target="_blank">Inicio</a></li>
+                <li><a href="/politica.html">Politica</a></li>
+                <li><a href="economia.html">Economia</a></li>
+                <li><a href="deportes.html">Deportes</a></li>
+                <li><a href="cultura">Cultura</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section>
+            <article id="principal">
+                <h2>Titulo de la noticia principal</h2>
+                <figure>
+                <img src="/images/principal.avif" width="320px" alt="telefono movil con noticias en la pantalla">
+                <figcaption>Movil con noticias en pantalla</figcaption>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel laudantium similique quisquam fuga veniam deserunt ullam dolorum? Dolor reiciendis sapiente beatae nobis minima harum magni ex laborum corrupti! Fugit!</p>
+                </figure>
+                <div>
+                    <video controls autoplay width="320px">
+                        <source src="/video/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </article>
+
+            <article id="noticia_2">
+                <h3>Otro titulo de otra noticia</h3>
+                <figure>
+                    <img src="/images/noticia_2.jpeg" width="320px" alt="telefono movil con noticias en la pantalla">
+                    <figcaption>Movil con noticias en pantalla</figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel laudantium similique quisquam fuga veniam deserunt ullam dolorum? Dolor reiciendis sapiente beatae nobis minima harum magni ex laborum corrupti! Fugit!</p>
+                    </figure>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel laudantium similique quisquam fuga veniam deserunt ullam dolorum? Dolor reiciendis sapiente beatae nobis minima harum magni ex laborum corrupti! Fugit!</p>
+            </article>
+
+            <article id="noticia_3">
+                <h4>Otra noticia</h4>
+                <figure>
+                    <img src="/images/noticia_3.avif" width="320px" alt="telefono movil con noticias en la pantalla">
+                    <figcaption>Movil con noticias en pantalla</figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel laudantium similique quisquam fuga veniam deserunt ullam dolorum? Dolor reiciendis sapiente beatae nobis minima harum magni ex laborum corrupti! Fugit!</p>
+                    </figure>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vel laudantium similique quisquam fuga veniam deserunt ullam dolorum? Dolor reiciendis sapiente beatae nobis minima harum magni ex laborum corrupti! Fugit!</p>
+            </article>
+        </section>
+
+        <section>
+            <h4>Suscribete a la Newsletter</h4>
+                <form action="/suscribirse" method="post">
+
+                    <fieldset>
+                        <legend>Datos</legend>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <br>
+                        <input type="submit" value="Registrarse" />
+                    </fieldset>
+                                        
+                    
+
+                </form>
+            
+        </section>
+    </main>
+
+    <aside>
+        <h4>Última hora</h4>
+        <ul>
+            <li><a href="#principal">Noticia 1</a></li>
+            <li><a href="#noticia_2">Noticia 2</a></li>
+            <li><a href="#noticia_3">Noticia 3</a></li>
+        </ul>
+        
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 El Heraldo.</p>
+        <em><p>Contacto: <a href="mailto:contacto@elheraldo.com">contacto@elheraldo.com</a> </p></em>
+    </footer>
+</body>
+</html>
